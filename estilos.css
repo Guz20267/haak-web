@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0f14;
+    color: white;
+}
+
+header {
+    background: black;
+    padding: 15px;
+    border-bottom: 3px solid #f4d03f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f4d03f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #00d4ff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1581092921461-eab62e97a780');
+    background-size: cover;
+    padding: 100px;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    margin: 15px;
+    background: #161b22;
+    border: 1px solid #00d4ff;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: #f4d03f;
+}

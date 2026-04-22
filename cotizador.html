@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cotizador</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⚡ HAAK</div>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="potencia.html">Potencia</a>
+        <a href="cotizador.html">Cotizador</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<div class="section">
+    <h2>Cotizador Profesional</h2>
+
+    <input id="producto" placeholder="Producto">
+    <input id="precio" placeholder="Precio">
+    <input id="cantidad" placeholder="Cantidad">
+
+    <button onclick="agregar()">Agregar</button>
+
+    <table id="tabla">
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+
+    <h3>Subtotal: <span id="subtotal">$0</span></h3>
+    <h3>IVA: <span id="iva">$0</span></h3>
+    <h2>Total: <span id="total">$0</span></h2>
+</div>
+
+</body>
+</html>
